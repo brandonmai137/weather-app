@@ -1,17 +1,6 @@
-/* body {
-  background-image: url("../images/noaa-99F4mC79j1I-unsplash.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-  margin-top: 130px;
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 10px;
-  font-weight: 300;
-} */
 
 body {
   min-height: 70vh;
-  /* background-image: url("../images/noaa-99F4mC79j1I-unsplash.jpg"); */
   background-image: url("../images/pexels-pixabay-355465.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -21,11 +10,6 @@ body {
   font-size: 20px;
   padding: 10px;
 
-}
-
-div {
-  /* background: rgba(251, 193, 245, 0.2); */
-  /* border: 1px solid red; */
 }
 
 .header {
@@ -137,7 +121,6 @@ i {
 .current-weather {
   height: 200px;
   width: 200px;
-  /* background: rgba(251, 193, 245, 0.5); */
 
 }
 
