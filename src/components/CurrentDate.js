@@ -79,7 +79,7 @@ function CurrentDate(data, tempUnits) {
                     <i className="wi wi-thermometer" id="right-icon"></i>
                     <div>
                         <div>Feels Like</div>
-                        <div>{data.data.main.feels_like}{degreesFarenheit}</div>
+                        <div>{data.tempUnits == "F" ? data.data.main.feels_like + degreesFarenheit: farenheitToCelcius(data.data.main.feels_like) + degreesCelcius}</div>
                     </div>
                 </div>
                 <div className='humidity'>
